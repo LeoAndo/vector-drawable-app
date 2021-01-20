@@ -1,17 +1,14 @@
 # vectorDrawableを利用したサンプルプロジェクト
 
 ### 結論
-Android 5.0以上でベクター型ドローアブルをImageView等で利用する場合は、`android:src`で読み込む
-Android 4.0から4.4まではベクター型ドローアブルを`app:srcCompat`で読み込む
+- Android 5.0以上でベクター型ドローアブルをImageView等で利用する場合は、`android:src`で読み込む
+- Android 4.0から4.4まではベクター型ドローアブルを`app:srcCompat`で読み込む
 
 ### vectorDrawableの扱い方
 Android 5.0(API Level 21)から
-[ベクター型ドローアブル](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja)をサポート。
-Android 5.0より古いOSでvectorDrawableを使用したい場合は、
-https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja#vector-drawables-backward-solution
-で紹介されてるスニペットの通り、
-[VectorDrawableCompat](https://developer.android.com/reference/androidx/vectordrawable/graphics/drawable/VectorDrawableCompat?hl=ja)
-を使って下位互換対応させる必要がある
+[ベクター型ドローアブル](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja)をサポート。<br>
+Android 5.0より古いOSでvectorDrawableを使用したい場合は、[VectorDrawableCompat](https://developer.android.com/reference/androidx/vectordrawable/graphics/drawable/VectorDrawableCompat?hl=ja)を使って下位互換対応させる必要がある<br>
+詳しくは、[ここを参照](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja#vector-drawables-backward-solution)
 
 ### 使用したアイコンのリンク
 https://material.io/resources/icons/?icon=adb&style=baseline
