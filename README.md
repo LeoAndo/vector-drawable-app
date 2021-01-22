@@ -1,4 +1,4 @@
-# vectorDrawableを利用したサンプルプロジェクト
+# vectorDrawableを利用したサンプル
 
 ### 結論
 - Android 5.0以上でベクター型ドローアブルをImageView等で利用する場合は、`android:src`で読み込む
