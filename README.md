@@ -4,6 +4,13 @@
 - Android 5.0以上でベクター型ドローアブルをImageView等で利用する場合は、`android:src`で読み込む
 - Android 4.0から4.4まではベクター型ドローアブルを`app:srcCompat`で読み込む
 
+### vector Drawableについて
+[参考](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja)
+
+- ベクター型ドローアブルを使用する主な利点は、画像の拡張性です。表示品質を損なわずに調整できるため、画質を低下させずに同じファイルをさまざまな画面密度に合わせてサイズ変更できる。
+  - なので、`drawable`配下に解像度別に画像ファイルを置く必要がなくなって保守性も上がる！！ 
+
+
 ### vectorDrawableの扱い方
 Android 5.0(API Level 21)から
 [ベクター型ドローアブル](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja)をサポート。<br>
