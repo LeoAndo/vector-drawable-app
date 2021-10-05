@@ -8,7 +8,7 @@
 [参考](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?hl=ja)
 
 - ベクター型ドローアブルを使用する主な利点は、画像の拡張性です。表示品質を損なわずに調整できるため、画質を低下させずに同じファイルをさまざまな画面密度に合わせてサイズ変更できる。
-  - なので、解像度別に画像ファイルを置く必要がなくなって保守性も上がる！！ (drawable配下)
+  - なので、解像度別に画像ファイルを置く必要がなくなって楽！！ (drawable配下)
 
 
 ### vectorDrawableの扱い方
